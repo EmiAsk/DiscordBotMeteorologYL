@@ -5,7 +5,9 @@ from discord.ext import commands
 from requests import get
 
 # https://discord.gg/VSK6vZN5 - сервер с ботом
-BOT_TOKEN = 'ODM2MjEzNzc1NzMyMTc4OTc0.YIauxA.6u9KfqsImHOtsZ4MTmtTCeIDMoA'
+
+# Как только Дискорд увидел свой токен на гитхабе, сразу же заблокировал его (( Придётся ваш использовать
+BOT_TOKEN = 'ODM2MjEzNzc1NzMyMTc4OTc0.YIauxA.6u9KfqsImHOtsZ4MTmtTCeIDMoA' 
 WEATHER_API_KEY = '88da3d26-75c3-4cdf-add0-d2ad53e5228b'
 WEATHER_API_SERVER = 'https://api.weather.yandex.ru/v2/forecast'
 API_GEOCODER = 'https://geocode-maps.yandex.ru/1.x/'
